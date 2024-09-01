@@ -6,10 +6,10 @@ const S3Upload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
 
   // Set up AWS credentials and S3 bucket info
-  AWS.config.update({
+  AWS.config.update({ // todo
     accessKeyId: "AKIAQFC27RAX32J67Q5G",  // Replace with your access key
     secretAccessKey: "zxtlQ+8ifCYHzfPPD6QqdwKeSmJJ9WNCDLS1XTj0", // Replace with your secret key
-    region: "eu-west-2" // Replace with your S3 bucket region and something
+    region: "eu-west-2" // Replace with your S3 bucket region and something and 
   });
 
   const s3 = new AWS.S3();
