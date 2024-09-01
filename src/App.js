@@ -9,7 +9,7 @@ const S3Upload = () => {
   AWS.config.update({
     accessKeyId: "AKIAQFC27RAX32J67Q5G",  // Replace with your access key
     secretAccessKey: "zxtlQ+8ifCYHzfPPD6QqdwKeSmJJ9WNCDLS1XTj0", // Replace with your secret key
-    region: "eu-west-2" // Replace with your S3 bucket region
+    region: "eu-west-2" // Replace with your S3 bucket region and something
   });
 
   const s3 = new AWS.S3();
